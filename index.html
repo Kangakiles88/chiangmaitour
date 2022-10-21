@@ -14,6 +14,10 @@
     <link 
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" 
     rel="stylesheet" />
+    <!-- Spoqa Han Sans Neo font -->
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+    
+    
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
     
@@ -29,7 +33,7 @@
             <ul class="navbar__menu__item">Home</ul>
             <ul class="navbar__menu__item">About</ul>
             <ul class="navbar__menu__item">Skills</ul>
-            <ul class="navbar__menu__item">Work</ul>
+            <ul class="navbar__menu__item">Gallery</ul>
             <ul class="navbar__menu__item">Review</ul>
             <ul class="navbar__menu__item">Contact</ul>
         </div>
@@ -37,9 +41,11 @@
     
     <!-- Home -->
     <section id="home" class="section">
-        <img src="/img/Tiny/원본/Logo.png" 
-        alt="치앙마이투어 로고"
-        class="home__avatar">
+        <a href="#">
+            <img src="/img/Tiny/원본/Logo.png" 
+            alt="치앙마이투어 로고"
+            class="home__avatar">
+        </a>
         <h1 class="home__title">태국 치앙마이 <br>황제 투어</h1>
         <h2 class="home__description">
             골프, 풀빌라, 에스코트 서비스까지 원스톱!
@@ -107,22 +113,70 @@
     
     <!-- Skills(컨텐츠 변경) -->
     <section id="skills" class="section">
+    <div class="section__container">
         <h1>Skills</h1>
-        <h2>Skils & Attributes</h2>
+        <h2>치앙마이 황제투어</h2>
         <p>
-            Experience with all pahses of the software...........
+            태국 치앙마이에서 즐기는 럭셔리 황제 투어, 골프, 풀빌라, 에스코트 서비스까지 <br>
+            원스톱으로 저희와 해결할 수 있습니다. <br>
+            현지 거주 10년차 가이드를 통해 태국 여행에서 모든 것을 즐겨보세요.
         </p>
         <div class="skillset">
             <div class="skillset__left">
                 <h3 class="skillset__title">Skills</h3>
                 <div class="skill">
-                    <div class="skill_description">
+                    <div class="skill__description">
                         <span>만족도</span>
                         <span>100%</span>   
                     </div>
                 </div>
-                <div class="skill_bar">
-                    <div class="skill__value"></div>
+                <div class="skill__bar">
+                    <div class="skill__value" style="width: 100%"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill__description">
+                        <span>만족도</span>
+                        <span>80%</span>   
+                    </div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skill__value" style="width: 80%"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill__description">
+                        <span>만족도</span>
+                        <span>70%</span>   
+                    </div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skill__value" style="width: 70%"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill__description">
+                        <span>만족도</span>
+                        <span>80%</span>   
+                    </div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skill__value" style="width: 80%"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill__description">
+                        <span>만족도</span>
+                        <span>100%</span>   
+                    </div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skill__value" style="width: 100%"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill__description">
+                        <span>만족도</span>
+                        <span>100%</span>   
+                    </div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skill__value" style="width: 100%"></div>
                 </div>
             </div>
             <div class="skillset_right">
@@ -144,31 +198,33 @@
                 </div>
             </div>
         </div>
+    </div>   
+       
     </section>
     
-    <!-- Work -->
+    <!-- Gallery -->
     <section id="work" class="section">
-        <h1>My work</h1>
-        <h3>Projects</h3>
+        <h1>Gallery</h1>
+        <h3>Experience</h3>
         <div class="work__categories">
             <button class="category__btn">
                 All<span class="category__count">8</span>
             </button>
             <button class="category__btn">
-                Front-End<span class="category__count">3</span>
+                GOLF<span class="category__count">3</span>
             </button>
             <button class="category__btn">
-                Back-End<span class="category__count">3</span>
+                POOL VILLA<span class="category__count">3</span>
             </button>
             <button class="category__btn">
-                Mobile<span class="category__count">2</span>
+                ESCORT<span class="category__count">2</span>
             </button>
         
             <div class="work__projects">
                 <a href="#"
                    class="project"
                    target="_blank">
-                <img src="/img/Tiny/Logo.png" class="project__img" alt="youtube">
+                <img src="/img/projects/youtube.png" class="project__img" alt="youtube">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
                     <span>Clone coding with HTML and CSS</span>
@@ -177,7 +233,7 @@
                 <a href="#"
                    class="project"
                    target="_blank">
-                <img src="/img/Tiny/Logo.png" class="project__img" alt="youtube">
+                <img src="/img/projects/navbar.png" class="project__img" alt="youtube">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
                     <span>Clone coding with HTML and CSS</span>
@@ -186,7 +242,7 @@
                 <a href="#"
                    class="project"
                    target="_blank">
-                <img src="/img/Tiny/Logo.png" class="project__img" alt="youtube">
+                <img src="/img/projects/game.png" class="project__img" alt="youtube">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
                     <span>Clone coding with HTML and CSS</span>
@@ -222,8 +278,8 @@
         <div class="testimonials">
             <div class="testimonial">
                 <img src="/img/review/people1_12942eb352.jpg"
-                 alt="People"
-                 />
+                alt="People"
+                class="testimonial__avatar"/>
                  <div class="testimonial__speech-bubble">
                     <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -234,10 +290,7 @@
                  </div>
             </div>
             <div class="testimonial">
-                <img src="/img/review/people1_12942eb352.jpg"
-                 alt="People"
-                 />
-                 <div class="testimonial__speech-bubble">
+                <div class="testimonial__speech-bubble">
                     <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Aspernatur debitis fugit voluptatem suscipit natus cum eligendi sint dignissimos, 
@@ -245,24 +298,37 @@
                     </p>
                     <p class="name"><a href="#">Ellie</a> /Samsung</p>
                  </div>
+                <img src="/img/review/people1_12942eb352.jpg"
+                alt="People"
+                class="testimonial__avatar"/>                
             </div>
+                
         </div>
+        
     </section>
     
     <!-- contact -->
     <section id="contact" class="section">
-        <h1 class="contact__tilte">Contact Us</h1>
+        <h1 class="contact__title">Contact Us</h1>
         <h2 class="contact__email">Derp@alkdf.com</h2>
         <div class="contact__links">
-            <a href="#" target="_blank">kakaotalk
-                <i class="fab fab fab fa-kickstarter-k"></i>
+            <a href="#" target="_blank">
+                kakaotalk
+                <img
+                class="contact__links-messenger" 
+                src="/img/icon/free-icon-kakao-talk-2564690.png"
+                alt="카카오톡 아이콘"> 
             </a>
-            <a href="#" target="_blank">telegram
-                <i class="fab fab fa-github"></i>
+            <a href="#" target="_blank">
+                telegram
+                <img
+                class="contact__links-messenger" 
+                src="/img/icon/telegram.png" 
+                alt="텔레그램 아이콘">
             </a>
         </div>
         <p class="contact__rights">
-            2022 Chiangmai Tour - All rights reserved
+            2022 <a href="#">Chiangmai Tour</a> - All rights reserved
         </p>
     </section>
 </body>
