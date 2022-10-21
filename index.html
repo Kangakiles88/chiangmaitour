@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <mgolfeta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>치앙마이 황제 투어 | 골프, 풀빌라, 에스코트 서비스</title>
     <meta name="description" content="치앙마이에서 즐기는 골프, 풀빌라, 에스코트 원스톱 서비스" />
     <meta name="author" content="chiangmai tour" />
-    <link rel="icon" href="img/Tiny/Logo.png" />
+    <link rel="icon" href="./img/Tiny/favicon.png" />
     <!-- font awesome -->
-    <script src="https://use.fontawesome.com/2c6068f323.js"></script>
-
+    <script src="https://kit.fontawesome.com/9d5a065dfa.js" crossorigin="anonymous"></script>
     <!-- google font -->
     <link 
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" 
@@ -23,30 +22,33 @@
     <!-- Navbar -->
     <nav id="navbar">
         <div class="navbar__logo">
-            <img src="img/Tiny/Logo(투명).png" alt="치앙마이투어 로고">
-            <a href="#">ChiangmaiTour</a>
+            <i class="fas fa-plane"></i>
+            <a href="#">CHIANG-MAI TOUR</a>
         </div>
         <div class="navbar__menu">
-            <ul class="navebar__menu__item">Home</ul>
-            <ul class="navebar__menu__item">About</ul>
-            <ul class="navebar__menu__item">Skills</ul>
-            <ul class="navebar__menu__item">Work</ul>
-            <ul class="navebar__menu__item">Review</ul>
-            <ul class="navebar__menu__item">Contact</ul>
+            <ul class="navbar__menu__item">Home</ul>
+            <ul class="navbar__menu__item">About</ul>
+            <ul class="navbar__menu__item">Skills</ul>
+            <ul class="navbar__menu__item">Work</ul>
+            <ul class="navbar__menu__item">Review</ul>
+            <ul class="navbar__menu__item">Contact</ul>
         </div>
     </nav>
     
     <!-- Home -->
-    <section id="home">
-        <img src="/img/Tiny/Logo(투명).png" 
+    <section id="home" class="section">
+        <img src="/img/Tiny/원본/Logo.png" 
         alt="치앙마이투어 로고"
         class="home__avatar">
-        <h1 class="home__title">태국 치앙마이 황제 투어</h1>
-        <h2 class="home__description">골프, 풀빌라, 에스코트 서비스까지 원스톱!</h2>
+        <h1 class="home__title">태국 치앙마이 <br>황제 투어</h1>
+        <h2 class="home__description">
+            골프, 풀빌라, 에스코트 서비스까지 원스톱!
+        </h2>
+        <button class="home__contact">Contact me</button>
     </section>
     
     <!-- About -->
-    <section id="about">
+    <section id="about" class="section">
         <h1>About me</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
         Obcaecati ipsam aut magni provident error beatae architecto magnam eaque perferendis modi exercitationem tenetur delectus, 
@@ -60,7 +62,7 @@
                 <div class="major__icon">
                     <i class="fa-thin fas fa-golf-ball"></i>
                 </div>
-                <div class="major__title">Golf</div>
+                <h2 class="major__title">Golf</h2>
                 <div class="major__description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel explicabo unde mollitia pariatur molestiae maxime deleniti aliquid quidem ipsum fuga id, iure eveniet impedit et itaque dolor architecto delectus reprehenderit.
                 </div>
@@ -69,37 +71,42 @@
                 <div class="major__icon">
                     <i class="fa-sharp fa-solid fas fa-hotel"></i>
                 </div>
-                <div class="major__title">Pool Villa</div>
+                <h2 class="major__title">Pool Villa</h2>
                 <div class="major__description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel explicabo unde mollitia pariatur molestiae maxime deleniti aliquid quidem ipsum fuga id, iure eveniet impedit et itaque dolor architecto delectus reprehenderit.
                 </div>
             </div>
             <div class="major">
                 <div class="major__icon">
-                    <i class="fa-solid fa-shield-heart"></i>
+                    <i class="fas fa-female"></i>
                 </div>
-                <div class="major__title">Escort</div>
+                <h2 class="major__title">Escort</h2>
                 <div class="major__description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel explicabo unde mollitia pariatur molestiae maxime deleniti aliquid quidem ipsum fuga id, iure eveniet impedit et itaque dolor architecto delectus reprehenderit.
                 </div>
             </div>
         </div>
         
-        <!-- 클래스명 변경할 것 -->
+        <!-- 클래스명 변경할 것-->
+      
         <div class="job"> 
-            <img src="" alt="job__logo"> 
-            <p class="job__name"></p>
-            <p class="job__period">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sapiente ex. Animi nisi odit doloribus labore autem officiis corrupti consequuntur fugit distinctio velit repudiandae, laborum repellat, vero voluptates sequi pariatur.</p>
-        </div>
+            <div class="job__description">
+                <img src="/img/jobs/logo-samsung.png" alt="job__logo"> 
+                <p class="job__name">SAMSUNG</p>
+                <p class="job__period">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sapiente ex. Animi nisi odit doloribus labore autem officiis corrupti consequuntur fugit distinctio velit repudiandae, laborum repellat, vero voluptates sequi pariatur.</p>
+            </div>
         <div class="job"> 
-            <img src="" alt="job__logo">
-            <p class="job__name"></p>
-            <p class="job__period">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sapiente ex. Animi nisi odit doloribus labore autem officiis corrupti consequuntur fugit distinctio velit repudiandae, laborum repellat, vero voluptates sequi pariatur.</p>
+            <div class="job__description">
+                <img src="/img/jobs/logo-samsung.png" alt="job__logo">
+                <p class="job__name">SAMSUNG</p>
+                <p class="job__period">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sapiente ex. Animi nisi odit doloribus labore autem officiis corrupti consequuntur fugit distinctio velit repudiandae, laborum repellat, vero voluptates sequi pariatur.</p>
+            </div>
         </div>
+    </div>
     </section>
     
     <!-- Skills(컨텐츠 변경) -->
-    <section id="skills">
+    <section id="skills" class="section">
         <h1>Skills</h1>
         <h2>Skils & Attributes</h2>
         <p>
@@ -140,7 +147,7 @@
     </section>
     
     <!-- Work -->
-    <section id="work">
+    <section id="work" class="section">
         <h1>My work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
@@ -209,7 +216,7 @@
     </section>
     
     <!-- Review -->
-    <section id="review">
+    <section id="review" class="section">
         <h1>Review</h1>
         <h3>See what they say about me</h3>
         <div class="testimonials">
@@ -243,7 +250,7 @@
     </section>
     
     <!-- contact -->
-    <section id="contact">
+    <section id="contact" class="section">
         <h1 class="contact__tilte">Contact Us</h1>
         <h2 class="contact__email">Derp@alkdf.com</h2>
         <div class="contact__links">
