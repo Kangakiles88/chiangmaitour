@@ -29,14 +29,14 @@
             <i class="fas fa-plane"></i>
             <a href="#">CHIANG-MAI TOUR</a>
         </div>
-        <div class="navbar__menu">
-            <ul class="navbar__menu__item">Home</ul>
-            <ul class="navbar__menu__item">About</ul>
-            <ul class="navbar__menu__item">Skills</ul>
-            <ul class="navbar__menu__item">Gallery</ul>
-            <ul class="navbar__menu__item">Review</ul>
-            <ul class="navbar__menu__item">Contact</ul>
-        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item active" data-link="#home">Home</li>
+            <li class="navbar__menu__item" data-link="#about">About</li>
+            <li class="navbar__menu__item" data-link="#skills">Skills</li>
+            <li class="navbar__menu__item" data-link="#gallery">Gallery</li>
+            <li class="navbar__menu__item" data-link="#review">Review</li>
+            <li class="navbar__menu__item" data-link="#contact">Contact</li>
+        </ul>
 
         <!-- Toggle button -->
         <button class="navbar__toggle-btn">
@@ -47,6 +47,7 @@
     
     <!-- Home -->
     <section id="home" class="section">
+      <div class="home__container">
         <a href="#">
             <img src="/img/Tiny/원본/Logo.png" 
             alt="치앙마이투어 로고"
@@ -56,7 +57,8 @@
         <h2 class="home__description">
             골프, 풀빌라, 에스코트 서비스까지 원스톱!
         </h2>
-        <button class="home__contact">Contact me</button>
+        <button class="home__contact">문의하기</button>
+      </div>
     </section>
     
     <!-- About -->
@@ -209,10 +211,10 @@
     </section>
     
     <!-- Gallery -->
-    <section id="work" class="section">
+    <section id="gallery" class="section">
         <h1>Gallery</h1>
         <h3>Experience</h3>
-        <div class="work__categories">
+        <div class="gallery__categories">
             <button class="category__btn">
                 All<span class="category__count">8</span>
             </button>
@@ -226,7 +228,7 @@
                 ESCORT<span class="category__count">2</span>
             </button>
         
-            <div class="work__projects">
+            <div class="gallery__projects">
                 <a href="#"
                    class="project"
                    target="_blank">
