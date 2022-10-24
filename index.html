@@ -102,7 +102,7 @@
         </div>
         
         <!-- 클래스명 변경할 것-->
-      
+    
         <div class="job"> 
             <div class="job__description">
                 <img src="/img/jobs/logo-samsung.png" alt="job__logo"> 
@@ -215,23 +215,24 @@
         <h1>Gallery</h1>
         <h3>Experience</h3>
         <div class="gallery__categories">
-            <button class="category__btn">
-                All<span class="category__count">8</span>
+            <button class="category__btn selected" data-filter="*">
+                All<span class="category__count" >8</span>
             </button>
-            <button class="category__btn">
-                GOLF<span class="category__count">3</span>
+            <button class="category__btn" data-filter="golf">
+                GOLF<span class="category__count" >3</span>
             </button>
-            <button class="category__btn">
-                POOL VILLA<span class="category__count">3</span>
+            <button class="category__btn" data-filter="villa">
+                POOL VILLA<span class="category__count" >3</span>
             </button>
-            <button class="category__btn">
-                ESCORT<span class="category__count">2</span>
+            <button class="category__btn" data-filter="escort">
+                ESCORT<span class="category__count" >2</span>
             </button>
         
             <div class="gallery__projects">
                 <a href="#"
                    class="project"
-                   target="_blank">
+                   target="_blank"
+                   data-type="golf">
                 <img src="/img/projects/youtube.png" class="project__img" alt="youtube">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
@@ -240,7 +241,8 @@
                 </a>
                 <a href="#"
                    class="project"
-                   target="_blank">
+                   target="_blank"
+                   data-type="golf">
                 <img src="/img/projects/navbar.png" class="project__img" alt="youtube">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
@@ -249,7 +251,8 @@
                 </a>
                 <a href="#"
                    class="project"
-                   target="_blank">
+                   target="_blank"
+                   data-type="villa">
                 <img src="/img/projects/game.png" class="project__img" alt="youtube">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
@@ -258,7 +261,8 @@
                 </a>
                 <a href="#"
                    class="project"
-                   target="_blank">
+                   target="_blank"
+                   data-type="villa">
                 <img src="/img/Tiny/Logo.png" class="project__img" alt="youtube">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
@@ -267,7 +271,8 @@
                 </a>
                 <a href="#"
                    class="project"
-                   target="_blank">
+                   target="_blank"
+                   data-type="escort">
                 <img src="/img/Tiny/Logo.png" class="project__img" alt="youtube">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
@@ -339,5 +344,10 @@
             2022 <a href="#">Chiangmai Tour</a> - All rights reserved
         </p>
     </section>
+
+    <!-- Arrow up -->
+    <button class="arrow-up">
+        <i class="fa-solid fas fa-arrow-up"></i>
+    </button>
 </body>
 </html>
