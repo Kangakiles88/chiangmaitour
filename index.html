@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <mgolfeta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>치앙마이 황제 투어 | 골프, 풀빌라, 에스코트 서비스</title>
     <meta name="description" content="치앙마이에서 즐기는 골프, 풀빌라, 에스코트 원스톱 서비스" />
     <meta name="author" content="chiangmai tour" />
@@ -16,13 +16,15 @@
     rel="stylesheet" />
     <!-- Spoqa Han Sans Neo font -->
     <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
-    
-    
-    <link rel="stylesheet" href="style.css" />
-    <script src="main.js" defer></script>
-    
+        
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/main.js" defer></script>
+    <!-- <script src="/js/youtube.js" defer></script>     -->
 </head>
-<body>
+<body 
+oncontextmenu="return false"
+ondragstart="return false"
+onselect="return false" >
     <!-- Navbar -->
     <nav id="navbar">
         <div class="navbar__logo">
@@ -30,12 +32,12 @@
             <a href="#">CHIANG-MAI TOUR</a>
         </div>
         <ul class="navbar__menu">
-            <li class="navbar__menu__item active" data-link="#home">Home</li>
-            <li class="navbar__menu__item" data-link="#about">About</li>
-            <li class="navbar__menu__item" data-link="#skills">Skills</li>
-            <li class="navbar__menu__item" data-link="#gallery">Gallery</li>
-            <li class="navbar__menu__item" data-link="#review">Review</li>
-            <li class="navbar__menu__item" data-link="#contact">Contact</li>
+            <li class="navbar__menu__item active" data-link="#home">홈</li>
+            <li class="navbar__menu__item" data-link="#about">서비스</li>
+            <li class="navbar__menu__item" data-link="#skills">영상</li>
+            <li class="navbar__menu__item" data-link="#gallery">갤러리</li>
+            <li class="navbar__menu__item" data-link="#review">리뷰</li>
+            <li class="navbar__menu__item" data-link="#contact">문의하기</li>
         </ul>
 
         <!-- Toggle button -->
@@ -53,32 +55,40 @@
             alt="치앙마이투어 로고"
             class="home__avatar">
         </a>
-        <h1 class="home__title">태국 치앙마이 <br>황제 투어</h1>
-        <h2 class="home__description">
-            골프, 풀빌라, 에스코트 서비스까지 원스톱!
-        </h2>
+        <h1 class="home__title">태국 황제 투어 패키지</h1>
+        <h3 class="home__description">태국에서 잊지 못할 추억<br>
+            치앙마이 투어가 여러분께 특별한 경험을 선사합니다. <br>
+            골프, 풀빌라, 에스코트<br> One-Stop Care!
+        </h3>
         <button class="home__contact">문의하기</button>
       </div>
     </section>
     
     <!-- About -->
     <section id="about" class="section">
-        <h1>About me</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Obcaecati ipsam aut magni provident error beatae architecto magnam eaque perferendis modi exercitationem tenetur delectus, 
-        enim sint distinctio, quae ut, laborum assumenda!
-        Optio possimus alias praesentium, voluptates quae necessitatibus tempora incidunt,
-        autem numquam corrupti nihil cupiditate pariatur quidem porro laborum quo modi doloribus. 
-        Voluptatum, eaque error? Eaque omnis inventore impedit corrupti totam.
-        </p>
+        <h1 style="color: #4d4d4d; font-weight: bold; margin: 0;">SERVICE INFO</h1>
+        <h3 style="color: #4d4d4d; margin-bottom: 10px;">&lt여행안내&gt</h3>
+        <h2 style="color:#2E583C; margin-top: 0;">One-Stop Care Service</h2>
+        <span style="margin: 0 40 0 40;">저희 치앙마이 투어는 동남아 여행의 메카인 태국에 <br>방문하시는 여러분께 <br>차별화된 최고의
+            태국 여행 패키지 서비스를 제공합니다.
+            <br>저희를 통해 태국에 방문하시는 여행객들에게 불편함없이<br> 골프, 풀빌라, 에스코트를 제공하는 <p style="margin-top: 0;"> One Stop Care Service</p>를 
+            이용하여 편안한 여행을 즐겨보세요.<br>
+            지금껏 경험하지 못한 <br>동남아 여행 최고의 추억을 선사할 수 있도록 
+            <br>최선을 다하고 있습니다.
+        </span>
         <div class="about__majors">
             <div class="major">
                 <div class="major__icon">
                     <i class="fa-thin fas fa-golf-ball"></i>
                 </div>
                 <h2 class="major__title">Golf</h2>
+                <h3 style="font-weight: bold; color:#7c7979">골프장 부킹 및 회원권</h3>
                 <div class="major__description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel explicabo unde mollitia pariatur molestiae maxime deleniti aliquid quidem ipsum fuga id, iure eveniet impedit et itaque dolor architecto delectus reprehenderit.
+                        저렴한 그린피와 캐디피, <br>여유로운 티오프가 장점인<br> 
+                        동남아 최고의 골프 여행지 태국 골프 여행<br>
+                        방콕, 파타야, 치앙마이 등 태국 <br>골프장 예약 서비스를 제공하며,<br>
+                        회원권 구매를 원하시는 분들에게<br> 대행 서비스를 제공합니다.
+                        
                 </div>
             </div>
             <div class="major">
@@ -86,8 +96,13 @@
                     <i class="fa-sharp fa-solid fas fa-hotel"></i>
                 </div>
                 <h2 class="major__title">Pool Villa</h2>
+                <h3 style="font-weight: bold; color:#7c7979">풀빌라 예약</h3>
                 <div class="major__description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel explicabo unde mollitia pariatur molestiae maxime deleniti aliquid quidem ipsum fuga id, iure eveniet impedit et itaque dolor architecto delectus reprehenderit.
+                    여행을 원하시는 태국 지역의 풀빌라를<br>
+                    숙소로 제공해드립니다.<br> 
+                    프라이빗하고 편안한 여행을 즐길 수 있도록<br>
+                    태국 현지에서 숙소 정보를 <br>직접 탐색하여 최상의 컨디션의<br>
+                    풀빌라를 제공하여 더욱 더 즐겁고 <br>편안한 여행을 만들어 드립니다. 
                 </div>
             </div>
             <div class="major">
@@ -95,42 +110,57 @@
                     <i class="fas fa-female"></i>
                 </div>
                 <h2 class="major__title">Escort</h2>
+                <h3 style="font-weight: bold; color:#7c7979">에스코트 걸</h3>
                 <div class="major__description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel explicabo unde mollitia pariatur molestiae maxime deleniti aliquid quidem ipsum fuga id, iure eveniet impedit et itaque dolor architecto delectus reprehenderit.
+                    개인형 맞춤 가이드 에스코트 서비스<br>
+                    를 귀엽고, 발랄한 태국 미녀들에게<br>
+                    제공받을 수 있습니다.<br> 
+                    20대 라인업으로 구성된<br>
+                    태국 현지 미녀들의<br>
+                    다정한 케어를 받으며,<br>
+                    즐겁고 설레는 여행을 즐기세요.
                 </div>
             </div>
         </div>
         
-        <!-- 클래스명 변경할 것-->
-    
-        <div class="job"> 
+        <!-- <div class="job"> 
             <div class="job__description">
                 <img src="/img/jobs/logo-samsung.png" alt="job__logo"> 
                 <p class="job__name">SAMSUNG</p>
                 <p class="job__period">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sapiente ex. Animi nisi odit doloribus labore autem officiis corrupti consequuntur fugit distinctio velit repudiandae, laborum repellat, vero voluptates sequi pariatur.</p>
-            </div>
-        <div class="job"> 
-            <div class="job__description">
                 <img src="/img/jobs/logo-samsung.png" alt="job__logo">
                 <p class="job__name">SAMSUNG</p>
                 <p class="job__period">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sapiente ex. Animi nisi odit doloribus labore autem officiis corrupti consequuntur fugit distinctio velit repudiandae, laborum repellat, vero voluptates sequi pariatur.</p>
             </div>
-        </div>
-    </div>
+        </div> -->
     </section>
     
-    <!-- Skills(컨텐츠 변경) -->
+    <!-- Video -->
     <section id="skills" class="section">
-    <div class="section__container">
-        <h1>Skills</h1>
-        <h2>치앙마이 황제투어</h2>
-        <p>
-            태국 치앙마이에서 즐기는 럭셔리 황제 투어, 골프, 풀빌라, 에스코트 서비스까지 <br>
-            원스톱으로 저희와 해결할 수 있습니다. <br>
-            현지 거주 10년차 가이드를 통해 태국 여행에서 모든 것을 즐겨보세요.
-        </p>
-        <div class="skillset">
-            <div class="skillset__left">
+        <section class="jb__box">
+                <video class="video" muted autoplay loop src="/video/2020 - Tour Soft 골프볼 광고 영상.mp4" type="video">
+                    <strong>현재 브라우저는 동영상 태그를 지원하지 않습니다.</strong> 
+                </video>
+                <div class="jb__box-cover"></div>
+
+            <div class="jb__text">
+                <div class="section__container">
+                    <h1>치앙마이 황제투어</h1>
+                    <p>태국 치앙마이에서 즐기는 럭셔리 황제 투어, 골프, 풀빌라, 에스코트 서비스까지 <br>
+                    최고의 여행은 저희와 함께 해결할 수 있습니다. <br>
+                    현지 한국 가이드를 통해 편안하고 즐거운 태국 여행에서 모든 즐거움을 누려보세요.
+                    </p>    
+                </div>
+            </div>
+         </section>
+    </section>
+
+    <!-- Skills(컨텐츠 변경) -->
+
+    <!-- <section id="skills" class="section">
+        <div class="section__container">       
+            <div class="skillset">            
+                <div class="skillset__left">
                 <h3 class="skillset__title">Skills</h3>
                 <div class="skill">
                     <div class="skill__description">
@@ -205,81 +235,209 @@
                     </ul>
                 </div>
             </div>
-        </div>
     </div>   
        
-    </section>
-    
+    </section> -->
+
     <!-- Gallery -->
     <section id="gallery" class="section">
         <h1>Gallery</h1>
         <h3>Experience</h3>
         <div class="gallery__categories">
             <button class="category__btn selected" data-filter="*">
-                All<span class="category__count" >8</span>
+                All
             </button>
             <button class="category__btn" data-filter="golf">
-                GOLF<span class="category__count" >3</span>
+                GOLF
             </button>
             <button class="category__btn" data-filter="villa">
-                POOL VILLA<span class="category__count" >3</span>
+                POOL VILLA
             </button>
             <button class="category__btn" data-filter="escort">
-                ESCORT<span class="category__count" >2</span>
+                ESCORT
             </button>
         
             <div class="gallery__projects">
-                <a href="#"
+                <a href="javascript:void(0)"
+                   class="project"
+                   target="_self"
+                   data-type="golf">
+                    <img src="/img/골프1.jpg" class="project__img" alt="치앙마이골프장">
+                    <div class="project__description">
+                        <h3>Golf</h3>
+                        <span>그린피 저렴한 골프장 1</span>
+                    </div>
+                </a>
+                <a href="javascript:void(0)"
+                   class="project"
+                   target="_self"
+                   data-type="golf">
+                    <img src="/img/골프1.jpg" class="project__img" alt="태국골프장">
+                    <div class="project__description">
+                        <h3>Golf</h3>
+                        <span>쾌적한 공기 골프장 2</span>
+                    </div>
+                </a>                
+                <a href=""
                    class="project"
                    target="_blank"
                    data-type="golf">
-                <img src="/img/projects/youtube.png" class="project__img" alt="youtube">
-                <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Clone coding with HTML and CSS</span>
-                </div>
+                    <img src="/img/골프1.jpg" class="project__img" alt="방콕 골프장">
+                    <div class="project__description">
+                        <h3>Golf</h3>
+                        <span>최고 시설의 골프장 3</span>
+                    </div>
                 </a>
-                <a href="#"
+                <a href=""
                    class="project"
                    target="_blank"
                    data-type="golf">
-                <img src="/img/projects/navbar.png" class="project__img" alt="youtube">
-                <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Clone coding with HTML and CSS</span>
-                </div>
+                    <img src="/img/골프1.jpg" class="project__img" alt="방콕 골프장">
+                    <div class="project__description">
+                        <h3>Golf</h3>
+                        <span>최고 시설의 골프장 4</span>
+                    </div>
                 </a>
-                <a href="#"
+                <a href=""
                    class="project"
                    target="_blank"
+                   data-type="golf">
+                    <img src="/img/골프1.jpg" class="project__img" alt="방콕 골프장">
+                    <div class="project__description">
+                        <h3>Golf</h3>
+                        <span>최고 시설의 골프장 5</span>
+                    </div>
+                </a>
+                <a href=""
+                class="project"
+                target="_blank"
+                data-type="golf">
+                 <img src="/img/골프1.jpg" class="project__img" alt="방콕 골프장">
+                 <div class="project__description">
+                     <h3>Golf</h3>
+                     <span>최고 시설의 골프장 6</span>
+                 </div>
+                </a>
+                <a href="javascript:void(0)"
+                   class="project"
+                   target="_self"
                    data-type="villa">
-                <img src="/img/projects/game.png" class="project__img" alt="youtube">
-                <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Clone coding with HTML and CSS</span>
-                </div>
+                    <img src="/img/풀빌라1.jpg" class="project__img" alt="태국 풀빌라">
+                    <div class="project__description">
+                        <h3>Pool Villa</h3>
+                        <span>깔끔한 시설의 풀빌라 1</span>
+                    </div>
                 </a>
-                <a href="#"
+                <a href="javascript:void(0)"
                    class="project"
-                   target="_blank"
+                   target="_self"
                    data-type="villa">
-                <img src="/img/Tiny/Logo.png" class="project__img" alt="youtube">
-                <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Clone coding with HTML and CSS</span>
-                </div>
+                    <img src="/img/풀빌라1.jpg" class="project__img" alt="태국 풀빌라">
+                    <div class="project__description">
+                        <h3>Pool Villa</h3>
+                        <span>깔끔한 시설의 풀빌라 2</span>
+                    </div>
                 </a>
-                <a href="#"
+                <a href="javascript:void(0)"
                    class="project"
-                   target="_blank"
+                   target="_self"
+                   data-type="villa">
+                    <img src="/img/풀빌라1.jpg" class="project__img" alt="태국 풀빌라">
+                    <div class="project__description">
+                        <h3>Pool Villa</h3>
+                        <span>깔끔한 시설의 풀빌라 3</span>
+                    </div>
+                </a>
+                <a href="javascript:void(0)"
+                   class="project"
+                   target="_self"
+                   data-type="villa">
+                    <img src="/img/풀빌라1.jpg" class="project__img" alt="태국 풀빌라">
+                    <div class="project__description">
+                        <h3>Pool Villa</h3>
+                        <span>깔끔한 시설의 풀빌라 4</span>
+                    </div>
+                </a>
+                <a href="javascript:void(0)"
+                   class="project"
+                   target="_self"
+                   data-type="villa">
+                    <img src="/img/풀빌라1.jpg" class="project__img" alt="태국 풀빌라">
+                    <div class="project__description">
+                        <h3>Pool Villa</h3>
+                        <span>깔끔한 시설의 풀빌라 5</span>
+                    </div>
+                </a>
+                <a href="javascript:void(0)"
+                   class="project"
+                   target="_self"
+                   data-type="villa">
+                    <img src="/img/풀빌라1.jpg" class="project__img" alt="태국 풀빌라">
+                    <div class="project__description">
+                        <h3>Pool Villa</h3>
+                        <span>깔끔한 시설의 풀빌라 6</span>
+                    </div>
+                </a>    
+                <a href="javascript:void(0)"
+                   class="project"
+                   target="_self"
                    data-type="escort">
-                <img src="/img/Tiny/Logo.png" class="project__img" alt="youtube">
-                <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Clone coding with HTML and CSS</span>
-                </div>
+                    <img src="/img/에스코트1.jpg" class="project__img" alt="태국 에스코트걸">
+                    <div class="project__description">
+                        <h3>escort 1</h3>
+                        <span>귀엽고 청순한 스타일 1</span>
+                    </div>
                 </a>
-                
+                <a href="javascript:void(0)"
+                   class="project"
+                   target="_self"
+                   data-type="escort">
+                    <img src="/img/에스코트1.jpg" class="project__img" alt="태국 에스코트걸">
+                    <div class="project__description">
+                        <h3>escort 1</h3>
+                        <span>귀엽고 청순한 스타일 2</span>
+                    </div>
+                </a>
+                <a href="javascript:void(0)"
+                   class="project"
+                   target="_self"
+                   data-type="escort">
+                    <img src="/img/에스코트1.jpg" class="project__img" alt="태국 에스코트걸">
+                    <div class="project__description">
+                        <h3>escort 1</h3>
+                        <span>귀엽고 청순한 스타일 3</span>
+                    </div>
+                </a>
+                <a href="javascript:void(0)"
+                   class="project"
+                   target="_self"
+                   data-type="escort">
+                    <img src="/img/에스코트1.jpg" class="project__img" alt="태국 에스코트걸">
+                    <div class="project__description">
+                        <h3>escort 1</h3>
+                        <span>귀엽고 청순한 스타일 4</span>
+                    </div>
+                </a>
+                <a href="javascript:void(0)"
+                   class="project"
+                   target="_self"
+                   data-type="escort">
+                    <img src="/img/에스코트1.jpg" class="project__img" alt="태국 에스코트걸">
+                    <div class="project__description">
+                        <h3>escort 1</h3>
+                        <span>귀엽고 청순한 스타일 5</span>
+                    </div>
+                </a>
+                <a href="javascript:void(0)"
+                   class="project"
+                   target="_self"
+                   data-type="escort">
+                    <img src="/img/에스코트1.jpg" class="project__img" alt="태국 에스코트걸">
+                    <div class="project__description">
+                        <h3>escort 1</h3>
+                        <span>귀엽고 청순한 스타일 6</span>
+                    </div>
+                </a>                                               
             </div>
         </div>
     </section>
@@ -314,10 +472,8 @@
                 <img src="/img/review/people1_12942eb352.jpg"
                 alt="People"
                 class="testimonial__avatar"/>                
-            </div>
-                
-        </div>
-        
+            </div>                
+        </div>       
     </section>
     
     <!-- contact -->
@@ -325,14 +481,14 @@
         <h1 class="contact__title">Contact Us</h1>
         <h2 class="contact__email">Derp@alkdf.com</h2>
         <div class="contact__links">
-            <a href="#" target="_blank">
+            <a href="javascript:void(0)" target="_self">
                 kakaotalk
                 <img
                 class="contact__links-messenger" 
                 src="/img/icon/free-icon-kakao-talk-2564690.png"
                 alt="카카오톡 아이콘"> 
             </a>
-            <a href="#" target="_blank">
+            <a href="javascript:void(0)" target="_self">
                 telegram
                 <img
                 class="contact__links-messenger" 
@@ -341,7 +497,7 @@
             </a>
         </div>
         <p class="contact__rights">
-            2022 <a href="#">Chiangmai Tour</a> - All rights reserved
+            2022 <a href="javascript:void(0)">Chiangmai Tour</a> - All rights reserved
         </p>
     </section>
 
