@@ -348,7 +348,7 @@
     }
 
     #skills h1 {
-        color: var(--color-light-white);
+        color: var(--color-green);
     }
 
     #skills h2 {
@@ -357,7 +357,7 @@
 
     #skills p{
         font-size: var(--font-micro);
-        color: var(--color-light-white);
+        color: var(--color-light-grey);
         margin-bottom: 0;
     }
 
