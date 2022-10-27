@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+
+Sitemap: http://www.chiangtour.com/sitemap.xml
