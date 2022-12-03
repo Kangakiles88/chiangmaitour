@@ -455,6 +455,7 @@
     }
 
     .gallery__projects {
+        margin-top: 20px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -527,6 +528,7 @@
 
     #review {
         background-color: var(--color-light-white);
+        width: 100%;
     }
 
     .testimonials {
