@@ -152,7 +152,7 @@
     /* Home */
 
     #home {
-        background:url('/img/background2.png') center/cover no-repeat;
+        background:url('/img/background2.jpg') center/cover no-repeat;
         padding: 40px;
         padding-top: 120px;
         text-align: center;
@@ -344,14 +344,13 @@
     
     .jb__box {
         position: relative;
-        height: 700px;
+        height: 100%;
         overflow: hidden;
         margin-top: 95px;
     }
 
     .jb__box-cover {
         background-image: url("../Thaigolf/img/video_cover_pattern.png");
-        background-color: rgba(0,0,0,.8);
         position: absolute;
         top: 0;
         left: 0;
@@ -374,6 +373,7 @@
     .video {
         margin-top: 0;
         width: 100%;
+        height: 700px;
     }
 
     /* Skills */
@@ -799,6 +799,7 @@
         }
         .video {
             width: 100%;
+            height: 100%;
         }
 
         .jb__text {
