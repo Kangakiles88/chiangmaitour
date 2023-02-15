@@ -1,5 +1,21 @@
-User-agent: *
-Allow: /
+User-Agent : *
+
+Disallow : /
+
+
+
+User-Agent : Googlebot
+
+Allow : /
+
+User-Agent : Yetibot
+
+Allow : /
+
+User-Agent : Daumoa
+
+Allow : /
+
 
 
 Sitemap: http://www.chiangtour.com/sitemap.xml
