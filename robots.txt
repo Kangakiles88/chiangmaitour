@@ -1,33 +1,34 @@
-User-Agent : *
-Disallow : /
+User-agent: *
+Disallow: /
+Disallow: /admin/
+Disallow: /private/
 
+User-agent: Googlebot
+Allow: /$
+Disallow: /admin/
+Disallow: /private/
 
+User-agent: Bingbot
+Allow: /$
+Disallow: /admin/
+Disallow: /private/
 
-User-Agent : Googlebot
-Allow : /
+User-agent: Naverbot
+Allow: /$
+Disallow: /admin/
+Disallow: /private/
 
-User-Agent : Yetibot
-Allow : /
+User-agent: Daum
+Allow: /$
+Disallow: /admin/
+Disallow: /private/
 
-User-Agent : Daumoa
-Allow : /
+User-agent: Yeti
+Allow: /$
+Disallow: /admin/
+Disallow: /private/
 
-User-Agent : Bingbot
-Allow : /
-
-User-Agent : Slurp
-Allow : /
-
-User-Agent : Googlebot
-Disallow : /*.nl$
-
-User-Agent : Googlebot
-Disallow : /*.it$
-
-User-Agent : Googlebot
-Disallow : /*.pl$
-
-User-Agent : Googlebot
-Disallow : /*.ur$
-
-Sitemap: http://www.chiangtour.com/sitemap.xml
+User-agent: Yandex
+Allow: /$
+Disallow: /admin/
+Disallow: /private/
