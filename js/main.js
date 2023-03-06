@@ -108,20 +108,20 @@ function scrollIntoView(selector) {
     scrollTo.scrollIntoView({behavior: 'smooth'});
 }
 
-//popup
-function openPopup() {
-	var img = document.querySelector("img");
-	var popup = document.createElement("div");
-	popup.classList.add("popup");
-	popup.innerHTML = '<img src="' + img.src + '">';
+// //popup
+// function openPopup() {
+// 	var img = document.querySelector("img");
+// 	var popup = document.createElement("div");
+// 	popup.classList.add("popup");
+// 	popup.innerHTML = '<img src="' + img.src + '">';
 
-	popup.onclick = function() {
-		popup.classList.remove("active");
-	};
+// 	popup.onclick = function() {
+// 		popup.classList.remove("active");
+// 	};
 
-	document.body.appendChild(popup);
+// 	document.body.appendChild(popup);
 
-	setTimeout(function() {
-		popup.classList.add("active");
-	}, 10);
-}
+// 	setTimeout(function() {
+// 		popup.classList.add("active");
+// 	}, 10);
+// }

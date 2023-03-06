@@ -96,7 +96,7 @@
         margin: 4px 0;
     }
 
-    /* Popup */
+    /* Popup
     .popup {
         display: none;
         position: fixed;
@@ -117,7 +117,7 @@
     
     .popup.active {
         display: flex;
-    }
+    } */
 
     /* Navvar */
     #navbar {
